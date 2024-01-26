@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+
+  /* font setting */
+
+  --main-font: font-family: 'Noto Sans KR', sans-serif;
+  --sub-font: font-family: 'Poppins', sans-serif;
+
+  --fw-thin: 100;
+  --fw-Regular: 400;
+  --fw-Medium: 500;
+  --fw-Bold: 700;
+  --fw-ExtraBold: 800;
+  --fw-Black: 900;
+
+  /* color setting */
+
+  --bg-color: #1f242d;
+  --sub-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #0ef;
+}
+
+/* common use */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+body {
+  background-color: var(--bg-color);
+}
