@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>SungyunJung Portfolio</title>
 </head>
 
 <body>
   <header class="nav-bar flex">
-    <a href="#" class="logo">SungYun Jung</a>
+    <a href="#" class="logo">SY Jung.</a>
+    <i class='bx bx-menu-alt-right' id="menu-icon"></i>
     <nav>
       <ul class="menu flex">
-        <a href="#home">
+        <a href="#home" class="active">
           <li>home</li>
         </a>
         <a href="#about">
@@ -31,8 +33,49 @@
       </ul>
     </nav>
   </header>
+  <!-- main section -->
 
-  <script src="./src/js/main.js"></script>
+  <section class="main-page flex center" id="home">
+    <div class="main-content">
+      <h3>Hello World</h3>
+      <h1>SungYun Jung</h1>
+      <h3>And I'm a <span>Project Manager</span></h3>
+      <p>언제나 생각하고 개션하기 위해 끊임 없이 고민을 하는 기획자 입니다. 프로젝트의 시작부터 기획, 개발, 마케팅 전체를 리딩하며, 개발 디자인 운영 등 다양한 역할들을 균형있게 관리 합니다.</p>
+      <div class="sns">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+      <a href="#" class="btn">Download Resume</a>
+    </div>
+
+    <div class="main-img">
+      <img src="./src/img/home.png" alt="">
+    </div>
+  </section>
+
+  <section class="about flex" id="about">
+    <div class="about-img">
+      <img src="./src/img/about.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Project Manager</h3>
+      <p>초기 설계부터 화면 구성, 서비스의 운영 방향까지 전체적인 그림을 그리는 기획자 입니다.
+        UI/UX 설계, User Flow 등 다방면으로 사용자 환경에 맞는 정확한 서비스 기획을 통하여,
+        고객의 니즈에 맞는 서비스를 제작 할 수 있도록 전체적인 관리를 하고 있습니다.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- skill section -->
+  <section class="skills" id="skills">
+    <div class="skill-content">
+      <h2 class="heading">My <span>Skill</span></h2>
+    </div>
+  </section>
+
+  <script src=" ./src/js/main.js"></script>
 </body>
 
 </html>
